@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<store>
+		<apples>15</apples>
+		<bananas>5</bananas>
+		<cherries>20</cherries>
+	</store>
+	<store2>
+		<apples>12</apples>
+		<bananas>8</bananas>
+		<cherries>25</cherries>
+		<watermelon>3</watermelon>
+	</store2>
+	<inventory>
+		<fruit1>
+			<name>apple</name>
+			<stock>10</stock>
+		</fruit1>
+		<fruit2>
+			<name>banana</name>
+			<stock>5</stock>
+		</fruit2>
+	</inventory>
+</root>

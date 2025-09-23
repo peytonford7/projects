@@ -1,0 +1,92 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Peyton Ford</title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+</head>
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/profile.jpg' %}" >
+					<hr>
+					<h4>Hello, I'm Peyton Ford!</h4>
+                    <p>I enjoy coding websites, games, hanging with friends, and reading!</p>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body">
+					<h4>My First Job as a Developer</h4>
+					<hr>
+					<p>Backstory</p>
+
+					<p>Coming into the Industry</p>
+
+					<p>Motivational Piece</p>
+
+					<ul class="social-links">
+						<li><img class="social" src="{% static 'images/facebook.png' %}"></li>
+						<li><img class="social" src="{% static 'images/linkedin.png' %}"></li>
+						<li><img class="social" src="{% static 'images/twitter.png' %}"></li>
+						<li><img class="social" src="{% static 'images/youtube.png' %}"></li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body">
+					<h5>My Experience in Computer Science</h5>
+					<hr>
+					<p>Quality Control Technician at Eagle Eye Networks</p>
+					<p>Inspected, built and repaired network devices bridges, switches and cameras. System software and BIOS was checked with a UI, both admins and a customer dashboard.</p>
+					</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body">
+					<h5>What I Know</h5>
+					<hr>
+					<p>Python, Django, HTML/CSS, JavaScript/NodeJS, React, MongoDB, APIs such as google maps, SQL tables, and security settings, operating systems, network configurations and protocols.</p>
+					<p>Working on Comptia Network+, Flask, SpringBoot, Ruby and AWS</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body">
+					<h5>How I Learn</h5>
+					<hr>
+					<p>Put how I learn here, learning language</p>
+
+					<p>Describe how I learn here.</p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body">
+					<h5>My Short Term Goals</h5>
+				<hr>
+				<p>Continue my education, and get a software engineering position while maintaining a life outside of work that I enjoy and contribute to my family. I'm collaborating and sharing my experience with others on my blog (peytonspi.com) & youtube channel (PandaTechX).</p>
+				<p>Aside from building small projects I would love to enter a position where I can be part of a bigger team & learn from others with more experience than myself.</p>
+
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+</body>
+</html>
