@@ -3,7 +3,6 @@ from .models import Note, Todo
 
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
-from web_project.serializers import NoteSerializer, TodoSerializer
 
 @api_view(['GET'])
 def getRoutes(request):
